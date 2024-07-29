@@ -1007,50 +1007,50 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
     transform: translateX(0);
 }
 
-.hidden .fa-linkedin {
+.hidden .a-linkedin {
     opacity: 0;
     transform: translateY(-100px);
     transition: 1s;
     transition-delay: .7s;
 }
 
-.auto .fa-linkedin {
+.auto .a-linkedin {
     opacity: 1;
     transform: translateX(0);
 }
 
-.hidden .fa-instagram {
+.hidden .a-instagram {
     opacity: 0;
     transform: translateY(100px);
     transition: 1s;
     transition-delay: .7s;
 }
 
-.auto .fa-instagram {
+.auto .a-instagram {
     opacity: 1;
     transform: translateY(0);
 }
 
-.hidden .socialmedia li .fa-google {
+.hidden .socialmedia .a-google {
     opacity: 0;
     transform: translateY(-100px);
     transition: 1s;
     transition-delay: .7s;
 }
 
-.auto .socialmedia li .fa-google {
+.auto .socialmedia .a-google {
     opacity: 1;
     transform: translateX(0);
 }
 
-.hidden .socialmedia li .fa-github {
+.hidden .socialmedia .a-github {
     opacity: 0;
     transform: translateY(100px);
     transition: 1s;
     transition-delay: .7s;
 }
 
-.auto .socialmedia li .fa-github {
+.auto .socialmedia .a-github {
     opacity: 1;
     transform: translateY(0);
 }
