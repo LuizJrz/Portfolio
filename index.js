@@ -52,3 +52,38 @@ function linkedin () {
         iconColor: "#0094a4",
     });
 }
+
+
+const sections = document.querySelectorAll('.hidden');
+const observer = new IntersectionObserver((entrada) => {
+    entrada.forEach((enter) => {
+        if(enter.isIntersecting) {
+            enter.target.classList.add('auto');
+        } else {
+            enter.target.classList.remove('auto');
+        }
+    });
+});
+
+const sectionstwo = document.querySelectorAll('.hidden-two');
+const observertwo = new IntersectionObserver((entradatwo) => {
+    entradatwo.forEach((entertwo) => {
+        if(entertwo.isIntersecting) {
+            entertwo.target.classList.add('auto-two');
+        } else {
+            entertwo.target.classList.remove('auto-two');
+        }
+    });
+});
+
+sections.forEach(sections => observer.observe(sections));
+
+sectionstwo.forEach(sectionstwo => observertwo.observe(sectionstwo));
+
+window.addEventListener('load', function () {
+    var semdelay = document.querySelectorAll('.nodelay');
+    semdelay.forEach((elementsemdelay) => {
+        elementsemdelay.classList.add('no-delay');
+    });
+    
+});
