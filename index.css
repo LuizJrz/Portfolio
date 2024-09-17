@@ -30,7 +30,7 @@ header {
 
 .grid {
     margin: 0 180px;
-    max-width: 1440px;
+    max-width: 1240px;
 }
 
 nav {
@@ -51,7 +51,6 @@ nav {
 
 .tag {
     font-family: "Russo One", sans-serif;
-    color: #a44fef;
     color: #DF95FE;
 }
 
@@ -202,6 +201,21 @@ nav ul li a:hover {
 
     .mobile {
         top: 80px;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .grid {
+        margin: 0 auto;
+    }
+
+    .home {
+        width: 86rem;
+        margin: 0 auto;
+    }
+
+    .sobre .container-s, .contatos .container-c {
+        margin: 0 auto; 
     }
 }
 
@@ -483,6 +497,7 @@ nav ul li a:hover {
     gap: 50px;
     margin: 0 auto;
     flex-wrap: wrap;
+    max-width: 1920px;
 }
 
 .card {
